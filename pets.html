@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Raleway:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
     <title>Pets</title>
 </head>
 <body>
-    <a href = "#main" id = "Skip">Skip to Main Content</a>
+    <a class="skip-link" href = "#main" id = "Skip">Skip to Main Content</a>
+    
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pets.html">Pets</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
+            <li class="lia"><a href="index.html">Travel</a></li>
+            <li class="lia"><a class="active" href="pets.html">Pets</a></li>
+            <li class="lia"><a href="recipes.html">Recipes</a></li>
         </ul>
     </nav>
+
     <main id = "main">
+        <div>
+            <h1>Pets</h1>
+        </div>
         <div>
             <h2>Bacon Q Dog</h2>
             <img src="pets/images/bacon.jpg" width = "400" alt="Brown labradoodle wearing colorful lei">
@@ -22,14 +31,11 @@
             <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p> 
             <P>At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</P>
             <h3>Photo Gallery</h3>
-            <img src="pets/images/bacon_bandana.JPG" width ="200" alt = "Brown labradoodle wearing an orange bandana">
-            <img src="pets/images/bacon_graduation.JPG"  width ="200" alt="Small labradoodle puppy wearing a graduation cap and gown">
-            <video width="200"  controls>
-                <source src="pets/images/bacon_agility.mov">
-                Your browser does not support the video tag.  This was a video of a girl and dog demonstrating a sit and stay procedure
-            </video>
-            <img src="pets/images/bacon_halloween.JPG"  width ="200" alt="Brown labradoodle wearing a pirate costume">
-
+            <div class="image-gridm">
+                <img src="pets/images/bacon_bandana.JPG" width ="200" alt = "Brown labradoodle wearing an orange bandana">
+                <img src="pets/images/bacon_graduation.JPG"  width ="200" alt="Small labradoodle puppy wearing a graduation cap and gown">
+            </div>
+                <img src="pets/images/bacon_halloween.JPG"  width ="40%" alt="Brown labradoodle wearing a pirate costume">
             <h3>Likes</h3>
             <ul>
                 <li>Belly rubs</li>
@@ -56,11 +62,12 @@
             </p>
 
             <h3>Photo Gallery</h3>
-            <img src="pets/images/biscuit2.jpeg" alt="Biscuit standing in the sunlight." width="200">
-            <img src="pets/images/biscuit3.jpeg" alt="Biscuit smiling for the camera." width="200">
-            <img src="pets/images/biscuit4.jpeg" alt="Biscuit standing near the road." width="200">
-            <img src="pets/images/biscuit5.jpeg" alt="Biscuit sleeping." width="200">
-
+            <div class="image-gridm">
+                <img src="pets/images/biscuit2.jpeg" alt="Biscuit standing in the sunlight." width="200">
+                <img src="pets/images/biscuit3.jpeg" alt="Biscuit smiling for the camera." width="200">
+                <img src="pets/images/biscuit4.jpeg" alt="Biscuit standing near the road." width="200">
+                <img src="pets/images/biscuit5.jpeg" alt="Biscuit sleeping." width="200">
+            </div>
             <h3>Likes</h3>
             <ul>
             <li>Going for walks</li>
@@ -81,11 +88,12 @@
                 along with lots of petting. However, she hates getting her stomach rubbed.</p>
     
             <h3>Photo Gallery</h3>
-            <img src="pets/images/Lucy_upsidedown.JPG" width ="200" alt = "Lucy laying on her back">
-            <img src="pets/images/Lucy_sleeping.JPG"  width ="200" alt="Lucy curled up in her bed sleeping">
-            <img src="pets/images/Lucy_sleepingpt2.JPG"  width ="200" alt="Lucy curled up sleeping">
-            <img src="pets/images/Lucy_laying.JPG"  width ="200" alt="Lucy laying staring at the camera">
-    
+            <div class="image-gridm">
+                <img src="pets/images/Lucy_upsidedown.JPG" width ="200" alt = "Lucy laying on her back">
+                <img src="pets/images/Lucy_sleeping.JPG"  width ="200" alt="Lucy curled up in her bed sleeping">
+                <img src="pets/images/Lucy_sleepingpt2.JPG"  width ="200" alt="Lucy curled up sleeping">
+                <img src="pets/images/Lucy_laying.JPG"  width ="200" alt="Lucy laying staring at the camera">
+            </div>
             <h3>Likes</h3>
             <ul>
                 <li>Sleeping</li>
@@ -109,11 +117,12 @@
                 on you.</p>
     
             <h3>Photo Gallery</h3>
-            <img src="pets/images/rosie_sleeping.jpg" width ="200" alt = "Rosie sleeping upside down">
-            <img src="pets/images/rosie_blanket.jpg"  width ="200" alt="Rosie sleeping in between someones legs">
-            <img src="pets/images/rosie_table.jpg"  width ="200" alt="Rosie laying on table">
-            <img src="pets/images/rosie_towel.jpg"  width ="200" alt="Rosie wrapped in a towel">
-    
+            <div class="image-gridm">
+                <img src="pets/images/rosie_sleeping.jpg" width ="200" alt = "Rosie sleeping upside down">
+                <img src="pets/images/rosie_blanket.jpg"  width ="200" alt="Rosie sleeping in between someones legs">
+                <img src="pets/images/rosie_table.jpg"  width ="200" alt="Rosie laying on table">
+                <img src="pets/images/rosie_towel.jpg"  width ="200" alt="Rosie wrapped in a towel">
+            </div>
             <h3>Likes</h3>
             <ul>
                 <li>Treats</li>
@@ -136,11 +145,12 @@
                 run to her hearts content.</p>
 
             <h3>Photo Gallery</h3>
-            <img src="pets/images/sofie2.JPG" width ="200" alt = "Beagle sitting on favorite couch looking around">
-            <img src="pets/images/sofie3.JPG"  width ="200" alt="Beagle laying down on chair.">
-            <img src="pets/images/sofie4.JPG"  width ="200" alt="Beagle laying next to angry birds pillow ">
-            <img src="pets/images/sofie5.JPG"  width ="200" alt="Beagle with two treats on paws">
-
+            <div class="image-gridm">
+                <img src="pets/images/sofie2.JPG" width ="200" alt = "Beagle sitting on favorite couch looking around">
+                <img src="pets/images/sofie3.JPG"  width ="200" alt="Beagle laying down on chair.">
+                <img src="pets/images/sofie4.JPG"  width ="200" alt="Beagle laying next to angry birds pillow ">
+                <img src="pets/images/sofie5.JPG"  width ="200" alt="Beagle with two treats on paws">
+            </div>
             <h3>Likes</h3>
             <ul>
                 <li>Fried eggs</li>

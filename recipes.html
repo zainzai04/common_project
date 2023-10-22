@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Raleway:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
     <title>Recipes</title>
 </head>
 <body>
-    <a href = "#main" id = "Skip">Skip to Main Content</a>
+    <a class="skip-link" href= "#main" id = "Skip">Skip to Main Content</a>
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pets.html">Pets</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
+            <li class="lia"><a href="index.html">Travel</a></li>
+            <li class="lia"><a href="pets.html">Pets</a></li>
+            <li class="lia"><a class="active" href="recipes.html">Recipes</a></li>
         </ul>
     </nav>
 
     <main id = "main">
+        <div>
+            <h1>Recipes</h1>
+        </div>
         <div>
             <h2>Tomato and Eggs</h2>
 
@@ -51,22 +58,24 @@
             </ol>
 
             <h3>Additional Food images</h3>
-            <img src="recipes/images/tomato-egg-side1.jpeg" alt="Tomato and eggs served with rice."
-            width="200">
-            <img src="recipes/images/tomatoes-cooking.webp" alt="Tomatoes cooking in a pan."
-            width="200">
-            <img src="recipes/images/scramble-eggs.jpeg" alt="Scrambled eggs cooking in a pan."
-            width="200">
-
+            <div class="image-gridr">
+                <img src="recipes/images/tomato-egg-side1.jpeg" alt="Tomato and eggs served with rice."
+                width="200">
+                <img src="recipes/images/tomatoes-cooking.webp" alt="Tomatoes cooking in a pan."
+                width="200">
+                <img src="recipes/images/scramble-eggs.jpeg" alt="Scrambled eggs cooking in a pan."
+                width="200">
+            </div>
             <!--Eric Xu-->
         </div>
     <div>
         <h2>Tres Leches Cake</h2>
-            <span>Origin: Latin America</span>
-            <span>Source: <a href ="https://www.allrecipes.com/recipe/7399/tres-leches-milk-cake/">allrecipes.com</a></span>
-            <span>Category: Dessert</span>
     
         <img src="https://www.theplazarestaurant.com/wp-content/uploads/2019/07/tres-leches-cake-66-200x300.jpg" width = "400" alt="Tres Leches Cake">
+            <p><b>Origin:</b> Latin American</p>
+            <p><b>Source:</b href ="https://www.allrecipes.com/recipe/7399/tres-leches-milk-cake/">allrecipes.com</p>
+            <p><b>Category:</b> Dessert </p>
+        
             <p>This cake is a staple at any Latin birthday or celebration. While I haven’t learned exactly 
                 how to make it, if you ask any aunt or mother they’ll typically know how to make it and 
                 have their own secrets and tips to make it the “best way.” The cake is typically very moist
@@ -103,19 +112,20 @@
             </ol>
     
             <h3>Additional Food images</h3>
-            <img src="https://www.196flavors.com/wp-content/uploads/2013/01/tres-leches-cake-FP2.jpg" width = "200" alt="Slice of cake with strawberry on top">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpmG69UhbyStQFwuzJ3XPUB60WUZeDjj9D4l8SPoukMstMoB36o1zmYdwrQ3xAZ8RPa4M&usqp=CAU" width = "200" alt="Slice of cake with fruit on top">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcp69Ep9IHzRffbGNRVEcknVMztm2FOwpOR3-oDGP8C2MjvZ-G0qBiNs-HffODL62Pso&usqp=CAU" width = "200" alt="Extra moist cake, with brown cinnamon on top">
-    
+            <div class="image-gridr">
+                <img src="https://www.196flavors.com/wp-content/uploads/2013/01/tres-leches-cake-FP2.jpg" width = "200" alt="Slice of cake with strawberry on top">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpmG69UhbyStQFwuzJ3XPUB60WUZeDjj9D4l8SPoukMstMoB36o1zmYdwrQ3xAZ8RPa4M&usqp=CAU" width = "200" alt="Slice of cake with fruit on top">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcp69Ep9IHzRffbGNRVEcknVMztm2FOwpOR3-oDGP8C2MjvZ-G0qBiNs-HffODL62Pso&usqp=CAU" width = "200" alt="Extra moist cake, with brown cinnamon on top">
+            </div>
             <!-- Marcelo Lopez -->
     </div>
     <div>
         <h2>Dutch Baby Pancake</h2>
-        <span>Origin: Washington</span>
-        <span>Source: Own Recipe</span>
-        <span>Category: Main Dish</span>
 
     <img src="recipes/images/dutchbaby.JPG" width = "400" alt="Dutch Baby Pancake">
+            <p><b>Origin:</b> Washington </p>
+            <p><b>Source:</b> Own Recipe </p>
+            <p><b>Category:</b> Main Dish </p>
         <p>An eggy sweet pancake. Tastes and smells like nutmeg and sugar. 
             Rises with heat and falls elsewhere. Is essentially a giant crepe.</p>
         <h3>Recipe Ingredients</h3>
@@ -140,10 +150,11 @@
         </ol>
 
         <h3>Additional Food images</h3>
-        <img src="recipes/images/DutchBabyWithSides.jpg" width = "200" alt="Dutch baby with sugar">
-        <img src="recipes/images/David-eyres-pancake.jpg" width = "200" alt="A variation of a dutch baby pancake with no salt">
-        <img src="recipes/images/Savory-Herb-Butter-Dutch-Baby-1.jpg" width = "200" alt="A savory dutch baby pancake">
-
+        <div class="image-gridr">
+            <img src="recipes/images/DutchBabyWithSides.jpg" width = "200" alt="Dutch baby with sugar">
+            <img src="recipes/images/David-eyres-pancake.jpg" width = "200" alt="A variation of a dutch baby pancake with no salt">
+            <img src="recipes/images/Savory-Herb-Butter-Dutch-Baby-1.jpg" width = "200" alt="A savory dutch baby pancake">
+        </div>
         <!-- Danny Mo/ danmor -->
     </div>
     </main>
