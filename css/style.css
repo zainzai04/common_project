@@ -171,6 +171,10 @@ nav a.active {
     font-size: 16px;
   }
 
+  .speci {
+    width: "40%";
+  }
+
   .image-gridt {
     display: grid;                    
     grid-template-columns: 1fr 1fr;   
