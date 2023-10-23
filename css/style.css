@@ -142,6 +142,10 @@ nav a.active {
   left: 10px;
 }
 
+.speci {
+  width: "40%";
+}
+
 @media (min-width: 800px) { /*desktop pixel*/
   .skip-link {
     position: absolute;
