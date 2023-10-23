@@ -1,6 +1,6 @@
 body {
-  background-color: #e1f1e6; /* Mint cream */
-  color: #39312d; /* Taupe gray for main text */
+  background-color: #f1e8e1; /* Mint cream */
+  color: #443630; /* Taupe gray for main text */
   font-family: Arial, sans-serif;
   font-size: 12px;
   margin: 0;
@@ -13,7 +13,7 @@ h1 {
   font-family: 'Poppins','Times New Roman', serif;
   margin-top: 1rem;
   font-weight: bold;
-  color: #3a5533;
+  color: #583725;
   font-weight: bold;
 }
 
@@ -21,8 +21,9 @@ h2 {
   font-size: 1.75rem;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  color: #44653c;
+  color: #7a502d;
   font-weight: bold;
+  text-decoration: underline;
   margin-top: 0.5rem;
 }
 
@@ -30,7 +31,7 @@ h3 {
   font-size: 1.25rem;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  color: #44653c;
+  color: #a57136;
   font-weight: bold;
   margin-top: 0.5rem;
 }
@@ -159,7 +160,7 @@ nav a.active {
   
   h2 {
     font-size: 38px;
-    border-bottom: 5px solid #5d351f;
+    /* border-bottom: 5px solid #5d351f; */
   }
   
   h3 {
